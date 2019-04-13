@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function index(){
-        $title = 'Welcome to demo project laravel [pass thru controller]';
+        $title = 'index page';
         return view('pages.index', [
             'title' => $title
         ]);
@@ -16,7 +16,7 @@ class PagesController extends Controller
     public function about(){
         return view('pages.about');
     }
-    
+
     public function service(){
         $data = array(
             'title'     => 'services',
