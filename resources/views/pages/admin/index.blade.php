@@ -1,1 +1,4 @@
-<h1>asdasd</h1>
+@extends('layouts.adminbase')
+@section('content')
+    <p>this is admin page</p>
+@endsection
