@@ -17,6 +17,10 @@ class PagesController extends Controller
         return view('pages.about');
     }
 
+    public function test(){
+        return 'hello';
+    }
+
     public function service(){
         $data = array(
             'title'     => 'services',
