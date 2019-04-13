@@ -9,6 +9,12 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/main.css')}}" rel="stylesheet">
+
+    <!--owl carousel -->
+    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
+    <script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
 
     <!--font-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -20,10 +26,6 @@
     <!--jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
-
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
-
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

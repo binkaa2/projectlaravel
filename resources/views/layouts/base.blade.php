@@ -13,3 +13,10 @@
   @include('includes.footer')
 </footer>
 </html>
+<script>
+$(document).ready(function(){
+  $("#owl-main").owlCarousel({
+    navigation : true
+})
+});
+</script>
