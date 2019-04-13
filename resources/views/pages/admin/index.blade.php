@@ -1,4 +1,4 @@
 @extends('layouts.adminbase')
 @section('content')
-    <p>this is admin page</p>
+    <h2>this is admin page</h2>
 @endsection

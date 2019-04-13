@@ -17,10 +17,10 @@
  <!-- sparkline js -->
  <script src="{{ asset('vendor/charts/sparkline/jquery.sparkline.js') }}"></script>
  <!-- morris js -->
- <script src="assets/vendor/charts/morris-bundle/raphael.min.js"></script>
- <script src="assets/vendor/charts/morris-bundle/morris.js"></script>
+ <script src="{{ asset('vendor/charts/morris-bundle/raphael.min.js') }}"></script>
+ <script src="{{ asset('vendor/charts/morris-bundle/morris.js') }}"></script>
  <!-- chart c3 js -->
- <script src="assets/vendor/charts/c3charts/c3.min.js"></script>
- <script src="assets/vendor/charts/c3charts/d3-5.4.0.min.js"></script>
- <script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
- <script src="assets/libs/js/dashboard-ecommerce.js"></script>
+ <script src="{{ asset('vendor/charts/c3charts/c3.min.js') }}"></script>
+ <script src="{{ asset('vendor/charts/c3charts/d3-5.4.0.min.js') }}"></script>
+ <script src="{{ asset('vendor/charts/c3charts/C3chartjs.js') }}"></script>
+ <script src="{{ asset('libs/js/dashboard-ecommerce.js') }}"></script>
